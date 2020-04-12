@@ -1,0 +1,30 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.mymenu {
+	padding-top : 2rem;
+	padding-left : 10rem;
+	background-color : #00FF00;
+	height : 100vh;
+}
+
+.display {
+	background-image: url('H:/Portfolio/Website/woodenPanel.jpg');
+	/* Full height */
+	height: 100vh;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.col-lg-2 .padding-0{
+    padding-right:0;
+    padding-left:0;
+}
