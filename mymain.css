@@ -8,20 +8,27 @@ body {
 }
 
 .mymenu {
-	padding-top : 2rem;
-	padding-left : 10rem;
-	background-color : #00FF00;
+	padding-top : 1rem;
+	padding-left : 5rem;
+	background-image : url('res/images/Stick1.jpg');
+	background-size: auto 100%;
 	height : 100vh;
 }
 
+.mymenu p {
+	height : 11vh;
+	font-size : 2rem;
+	font-family : "Garamond", cursive, sans-serif;
+}
+
+#menu1:hover {
+	background-color : #FF0000;
+}
+
 .display {
-	background-image: url('H:/Portfolio/Website/woodenPanel.jpg');
+	background-color: #c6c6c6;
 	/* Full height */
-	height: 100vh;
-	/* Center and scale the image nicely */
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	height : 100vh;
 }
 
 .col-lg-2 .padding-0{
